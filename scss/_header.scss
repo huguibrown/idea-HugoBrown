@@ -1,0 +1,30 @@
+.header {
+	background-color: black;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	grid-area: header;
+	.menu {
+		flex-direction: row;
+		padding: 1rem;
+		text-decoration: none;
+		.boton {
+			display: inline-block;
+			flex-direction: row;
+			padding: 1rem;
+			text-decoration: none;
+			a {
+				text-decoration: none;
+				flex-direction: row;
+				color: white;
+				&:hover {
+					color: black;
+				}
+			}
+			&:hover {
+				background-color: gray;
+				border-radius: 20%;
+			}
+		}
+	}
+}

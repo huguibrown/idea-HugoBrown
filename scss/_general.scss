@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.titulos {
+	grid-area: titulos;
+	height: 20%;
+	top: 1rem;
+	h2 {
+		font-family: $fonttitulos;
+		text-align: center;
+		letter-spacing: 0.5rem;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		.link{
+			text-decoration: none;
+			flex-direction: row;
+			color: rgb(12, 12, 12);
+			&:hover {
+				background-color: black;
+				color: white
+			}
+		}
+	}
+	h5 {
+		text-align: center;
+		font-family: $fonttitulos;
+		letter-spacing: 0.2rem;
+		background-color: $bgtitulos;
+		color: white;
+		padding-top: 0.3rem;
+		padding-bottom: 0.3rem;
+		font-weight: bold;
+	}
+}
+h1 {
+	text-align: center;
+	letter-spacing: 1rem;
+	font-family: $fonttitulos;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+h3 {
+	text-align: center;
+	font-family: $fonttitulos;
+	letter-spacing: 1rem;
+	color: white;
+	background-color: $bgtitulos;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+h4 {
+	margin: 0%;
+	font-family: $fonttextos;
+	text-align: left;
+	display: inline-block;
+	padding: 10%;
+	letter-spacing: 2px;
+	line-height: 1.2;
+}
+

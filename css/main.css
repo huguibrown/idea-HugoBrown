@@ -1,0 +1,307 @@
+body h1 {
+  color: black; }
+
+.footer {
+  background-color: black;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  grid-area: footer; }
+  .footer li {
+    flex-direction: row;
+    padding: 1rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center; }
+  .footer ul {
+    display: inline-block;
+    flex-direction: row;
+    padding: 1rem;
+    width: 100%;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center; }
+    .footer ul li {
+      align-items: center;
+      display: inline-block;
+      text-decoration: none;
+      justify-content: center;
+      color: #fafafa;
+      background-color: black;
+      position: relative; }
+      .footer ul li a {
+        font-size: 15px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        align-items: center; }
+        .footer ul li a:hover {
+          background-color: gray;
+          color: black; }
+      .footer ul li:hover {
+        background-color: gray;
+        border-radius: 20%; }
+
+.header {
+  background-color: black;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  grid-area: header; }
+  .header .menu {
+    flex-direction: row;
+    padding: 1rem;
+    text-decoration: none; }
+    .header .menu .boton {
+      display: inline-block;
+      flex-direction: row;
+      padding: 1rem;
+      text-decoration: none; }
+      .header .menu .boton a {
+        text-decoration: none;
+        flex-direction: row;
+        color: white; }
+        .header .menu .boton a:hover {
+          color: black; }
+      .header .menu .boton:hover {
+        background-color: gray;
+        border-radius: 20%; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.titulos {
+  grid-area: titulos;
+  height: 20%;
+  top: 1rem; }
+  .titulos h2 {
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
+    .titulos h2 .link {
+      text-decoration: none;
+      flex-direction: row;
+      color: #0c0c0c; }
+      .titulos h2 .link:hover {
+        background-color: black;
+        color: white; }
+  .titulos h5 {
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    letter-spacing: 0.2rem;
+    background-color: black;
+    color: white;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-weight: bold; }
+
+h1 {
+  text-align: center;
+  letter-spacing: 1rem;
+  font-family: "Chakra Petch", sans-serif;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
+
+h3 {
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  letter-spacing: 1rem;
+  color: white;
+  background-color: black;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem; }
+
+h4 {
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  display: inline-block;
+  padding: 10%;
+  letter-spacing: 2px;
+  line-height: 1.2; }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-area: main;
+  align-items: center;
+  justify-items: auto; }
+  .main .preskit {
+    display: inline-block;
+    width: auto; }
+  .main .cara {
+    display: inline-block;
+    align-items: center;
+    left: 100%;
+    width: 50%;
+    border-radius: 80%; }
+
+.aside {
+  margin: 5%;
+  grid-area: aside;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(233, 233, 233, 0.733); }
+  .aside p {
+    align-items: center;
+    width: 100%;
+    height: 40%; }
+
+.aside2 {
+  margin: 5%;
+  grid-area: aside;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10%; }
+
+.asideIndex {
+  padding-top: 12%;
+  margin: 5%;
+  grid-area: aside;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(233, 233, 233, 0.733); }
+
+.section {
+  padding: 0%;
+  border: 0cm;
+  grid-area: section;
+  color: white;
+  width: 90%;
+  height: 50%;
+  margin: 5%; }
+  .section h4 {
+    display: inline-block;
+    align-content: center;
+    grid-area: section;
+    background-color: rgba(233, 233, 233, 0.733);
+    color: #0c0c0c; }
+  .section .setting {
+    display: flex;
+    flex-direction: row;
+    color: black; }
+
+.contenedor {
+  margin: auto;
+  padding: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto auto auto auto;
+  grid-template-areas: "header header" "titulos titulos" "main aside" "section section" "footer footer"; }
+
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  background-color: black;
+  border: 10px;
+  width: 100%;
+  border-color: #000000; }
+
+.principal {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  color: black;
+  font-family: "Chakra Petch", sans-serif; }
+
+form {
+  margin: 0 auto;
+  width: 80%; }
+
+input {
+  width: 100%;
+  height: 27px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #ffffff; }
+
+textarea {
+  width: 100%;
+  height: 27px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #ffffff;
+  height: 150px; }
+
+#submit {
+  width: 85px;
+  height: 35px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #000000; }
+
+#delete {
+  text-align: center;
+  width: 85px;
+  height: 35px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #000000; }
+
+video {
+  margin-top: 5%;
+  border-color: black;
+  border-style: hidden;
+  border-width: 3px;
+  width: 90%;
+  border-radius: 5%; }
+
+@media only screen and (max-width: 576px) {
+  .contenedor {
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto auto auto;
+    grid-template-areas: "header" "titulos" "main" "aside" "section" "footer";
+    font-size: small; }
+    .contenedor .logo {
+      width: 50px; }
+    .contenedor .header {
+      font-size: 6px;
+      padding: 0%; }
+    .contenedor .menu {
+      padding: 10px; }
+    .contenedor .titulos {
+      font-size: 7px; }
+      .contenedor .titulos h3 {
+        letter-spacing: 10px;
+        font-size: 10px; }
+    .contenedor .video {
+      margin-top: 5%; }
+    .contenedor .principal {
+      width: auto;
+      height: 50%; }
+      .contenedor .principal .footer {
+        font-size: 5px; } }
+
+@media only screen and (max-width: 768px) {
+  .contenedor {
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto auto auto;
+    grid-template-areas: "header" "titulos" "main" "aside" "section" "footer"; }
+  .titulos {
+    letter-spacing: 1px;
+    font-size: 0.5rem; }
+  p {
+    font-size: 0.2rem; } }

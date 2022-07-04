@@ -1,0 +1,26 @@
+.aside {
+	margin: 5%;
+	grid-area: aside;
+	@include flex-row-center;
+	background-color: rgba(233, 233, 233, 0.733);
+	p{
+		align-items: center;
+		width: 100%;
+		height: 40%;
+		
+	}
+}
+.aside2 {
+	margin: 5%;
+	grid-area: aside;
+	@include flex-row-center;
+	padding-top: 10%;
+}
+.asideIndex{
+	padding-top: 12%;
+	margin: 5%;
+	grid-area: aside;
+	@include flex-row-center;
+	background-color: rgba(233, 233, 233, 0.733);
+
+}
