@@ -72,6 +72,10 @@ body h1 {
   padding: 0%;
   box-sizing: border-box; }
 
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important; }
+
 .titulos {
   grid-area: titulos;
   height: 20%;
